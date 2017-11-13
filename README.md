@@ -22,7 +22,7 @@ The simplest usgae of the library once installed is found below:
 
     ms = monitoringservice.MonitoringService(key='<insert_key_here>', type=MonitoringService.GENERIC)
 
-    ms.upload_reading("Our sensor has been triggered")
+    ms.upload_reading("Our sensor application is starting")
 ```
 
 ## Types of sensor
