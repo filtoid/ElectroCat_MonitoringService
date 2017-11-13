@@ -1,4 +1,4 @@
-# ElectroCat_MonitoringService
+# ElectroCat Monitoring Service Support Module
 Helper library for uploading to the Electro Cat Studios Monitoring Service
 
 ## Setup
