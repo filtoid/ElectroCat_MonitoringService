@@ -12,18 +12,17 @@ class MonitoringService(object):
     DOOR = "door"
     MOTION = "motion"
 
-    COLLECTION = [TEMPERATURE, GENERIC, DOOR, MOTION]
-
     def __init__(self, key=None, type_="generic"):
+        self.COLLECTION = [self.TEMPERATURE, self.GENERIC, self.DOOR, self.MOTION]
         self.key = key
+        self.http = httplib2.Http()
 
-        if type_ in self.COLLECTION:
+        if not type_ in self.COLLECTION:
             print("Unknown type {}".format(type_))
             self.type_ = self.GENERIC
             return
 
         self.type_ = type_
-        self.http = httplib2.Http()
 
     def set_key(self, key):
         self.key = key

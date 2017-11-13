@@ -8,4 +8,7 @@ setup(name='monitoringservice',
       author_email='phil@electrocatstudios.com',
       license='MIT',
       packages=['monitoringservice'],
+      install_requires=[
+          'httplib2',
+      ],
       zip_safe=False)
