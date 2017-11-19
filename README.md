@@ -27,3 +27,6 @@ The simplest usgae of the library once installed is found below:
 
 ## Types of sensor
 The sensor type must match the type created in the setup stage.
+
+## Signing up to Electro Cat Studios and setting up your first sensor
+For more information on how to sign up and get started see the instructions at [https://electrocatstudios.com/pdf/On-Boarding.pdf ](https://electrocatstudios.com/pdf/On-Boarding.pdf)
